@@ -1,5 +1,5 @@
-# CSI477-2016-02
-CSI477 - Web Systems
+# CSI477 - Web Systems -2016-02
+
 Repo related to **"Web Systems"** course offered by "Universidade Federal de Ouro Preto- Brazil."
 
 + **References:**

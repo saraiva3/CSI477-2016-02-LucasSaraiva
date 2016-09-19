@@ -1,4 +1,4 @@
-# CSI477-2016-02-LucasSaraiva
+# CSI477-2016-02
 CSI477 - Sistemas Web
 Repositorio relacionado a disciplina de **Sistemas Web** da Universidade Federal de Ouro Preto, curso **Sistemas de informação.**
 

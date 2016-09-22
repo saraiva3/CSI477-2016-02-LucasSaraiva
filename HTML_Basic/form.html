@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css"
+      href="style.css" />
+  </head>
+  <body>
+    <h1>Register Students</h1>
+
+    <form name="register" method="post" action="validate.html">
+
+      <input type="hidden" name ="id" value="123456"/>
+
+      Name: <input type="text" name="name"/><br><br>
+
+      Gender:  <input type="radio" name="gender" value="F" > Female
+      <input type="radio" name="gender" value="M"> Male
+      <input type="radio" name="gender" value="N/A"> Not Applicable<br><br>
+
+      Area:<br><input type="checkbox" name="area"/>Web <br>
+      <input type="checkbox" name="area"/>Database <br>
+      <input type="checkbox" name="area"/>Mobile <br><br>
+
+      <div id="cityList">
+        <select name="city">
+          <option  value="1"> Joao Monlevade </option>
+          <option  value="1"> Alvinopolis </option>
+          <option  value="1"> Ipatinga </option>
+          <option  value="1"> Belo Horizonte </option>
+          <option  value="1"> Itabira </option>
+          <option  value="1"> Prata </option>
+        </select><br><br>
+      </div>
+
+      User: <input type="text" name="user"/><br><br>
+      Password: <input type="password" name="password"/><br><br>
+
+      <textarea name="Comment" cols="20" rows="3">
+        Comments
+      </textarea> <br> <br>
+
+      <input type="range" name="Satisfaction" min="0" max="10"> <br> <br>
+      <input type="number" name="Quantity" min="0" max="100" >  <br> <br>
+      <input type="color" name="Colors">  <br> <br>
+      <input type="date" name="date"> <br> <br>
+
+      <input type="submit" value = "Accept" />
+      <input type="reset" value = "Clean" />
+
+    </form>
+    <a href="index.html">Back</a>
+  </body>
+</html>
